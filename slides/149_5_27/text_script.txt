@@ -1,0 +1,13 @@
+so here's an example my function that calls foo and bar
+
+and i'm starting to adopt this illustration here on the right
+
+which illustrates kind of the stack or the sequence of execution of this thread of control
+
+so in this thread of control there's like part a
+the part of my func before the
+the call to foo
+
+then there will be the execution of foo
+then the execution of bar and then everything after bar
+that's just normal c function calls

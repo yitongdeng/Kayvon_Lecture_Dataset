@@ -1,0 +1,15 @@
+and so in the spirit of doing the simplest thing first
+if you gave me two threads and said compute a scan
+i would probably do something like this
+
+i would divide the array in half
+i would do two sequential scans
+
+which is o of n
+
+running straight through memory
+i would get the base for the first half
+and then i would parallelize the application of the base to the second half of the array
+
+if we're on a shared memory multiprocessor
+the fact that information computed by p2 has to get over to p1 is not that big of a deal i'm just reading from the same memory system

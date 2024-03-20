@@ -1,0 +1,8 @@
+for example
+if you rip open most modern machines
+you usually see like a l1 cache that's pretty small
+a few kilobytes right next to the processor that can be accessed in a few cycles
+if you miss the l1
+you'll ask the l2 if you miss the l2 often you'll see an l3
+
+if you miss the l3 you'll go out to dram

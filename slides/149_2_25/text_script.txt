@@ -1,0 +1,12 @@
+i made that diagram that i had on the last slide just a little bit fancier
+
+i said
+look you had this out of order execution logic
+
+outside of this class there's all this other fun stuff that's in a processor to make an instruction stream go faster
+a lot of it's about not accessing memory
+like you might put a big old data cache that has a ton of transistors to hold a bunch of data on cache
+you might actually have logic that predicts what memory you're going to access in the future as a prefetcher
+they had all this fancy stuff in there to try and make the inner loop go as fast as possible
+
+but there's this outer loop that's trivial in a parallel

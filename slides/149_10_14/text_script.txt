@@ -1,0 +1,10 @@
+and then we're just going to repeat this process over and over and over
+
+producing a bunch of filters
+
+taking it through that function f
+which is setting everything to clamping at zero
+
+and then maybe actually doing a few other calculations
+like in this case a max pool is largely just a down sample
+and so on and so on

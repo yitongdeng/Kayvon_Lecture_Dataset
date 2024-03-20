@@ -1,0 +1,2 @@
+okay
+so all of the big vendors have their own deep learning libraries like kudi and n or intel's one api these days

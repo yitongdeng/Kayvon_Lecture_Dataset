@@ -1,0 +1,14 @@
+but if you look at a lot of the long term ones
+they kind of go on some axis
+right like if you're a web developer
+you might write a lot of code in javascript
+you can write whatever you want in javascript
+but you can hack some stuff up pretty quick
+and you can hack basically whatever you want but it's not going to be that fast
+
+or if you're writing here in c or rust and i'll even put java and cuda in this category
+these are all different levels of performance to be honest
+but you can write whatever you want again
+and you'd choose to use c or c
+so that would be your thing like this needs to be fast i'm going to write it in c or it needs to be gpu accelerated
+i'm going to write it in cuda

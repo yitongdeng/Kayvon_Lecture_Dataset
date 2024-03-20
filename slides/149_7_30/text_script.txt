@@ -1,0 +1,10 @@
+i have organized my code
+
+instead of just saying launch 72 threads
+
+i have said launch a certain number of thread blocks
+and each block is a 4x3 grid of threads
+so the thread id is two dimensional
+those are these numbers
+
+the block dims are not on this slide but the block dim is 4x3 and then the block index is whatever the current block is

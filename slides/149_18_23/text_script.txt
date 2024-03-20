@@ -1,0 +1,21 @@
+these days
+if you want this high bandwidth memory
+this is your cpu or gpu and it's right on a silicon chip
+
+right it's on a silicon chip and on that same silicon chip is a memory module right into it so now the connections between these two are actually wires on a piece of silicon
+they're not board traces
+okay
+and then the dram chip is actually stacked
+which means that these dram chips are on top of each other physically
+
+and the key technology was this thing called the ts via
+through silicon via
+
+so you can think about the wires that used to be like eight wires at the edge of the chip are now wires that leave the chip throughout the dram array
+so you kind of get area amount of space and not one edge of the chip amount of space so you can run a lot more wires right off the bottom of the chip
+like from everywhere in that array
+
+and those wires have to run through the dram chips below it
+
+so there's these vertical wires that then go right into a piece of silicon
+right over to the gpu

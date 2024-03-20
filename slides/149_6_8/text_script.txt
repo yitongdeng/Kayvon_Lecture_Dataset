@@ -1,0 +1,12 @@
+another example of it is if you just go out and buy a motherboard that has two sockets in it for two physical cpus
+
+you know let's say there's two different four core cpus
+
+there's an on chip network
+that ring connecting the cores
+the one i showed you and then there are traces out over the dual socket board
+
+and a load or a store from core 1 to address x in that diagram might be a lot faster
+or a good bit faster than a load and store from let's say
+core 8 to address x
+regardless of the caching behavior or things like that

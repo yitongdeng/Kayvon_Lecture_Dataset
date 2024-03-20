@@ -1,0 +1,4 @@
+but of course it creates a more difficult programming paradigm
+right we've already seen that you need multiple threads for the cpu cores
+you need some data parallel programming model like cuda for the gpu
+and you might need a different programming model for the media components

@@ -1,0 +1,11 @@
+and this was one of the first mainstream multi threaded chips
+so it had
+in this case
+
+uh eight cores
+uh and each of those cores had a bunch of threads but all of those cores were connected out to to the main memories
+uh via what's a cro percent a crossbar switch the ccx is crossbar
+and a crossbar means that every core is actually like physically wired to every other one it's like n squared wires for n n n cores and what's kind of interesting is if you look at the chip diagram the actual area
+the footprint of a a processor core is about the same as the footprint of the network
+
+so like this these networks that get high bandwidth connection between all the processors are extremely expensive and extremely complex

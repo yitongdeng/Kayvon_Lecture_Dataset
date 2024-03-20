@@ -1,0 +1,19 @@
+so you have all of these different bits
+and they're organized on a dram chip actually in this 2d manner
+
+now down here at the bottom of the chip
+there's two important structural pieces
+
+first of all you have your wires
+your data pins
+that actually connect this chip to the rest of the computer
+so there's eight data pins here
+which means this dram chip at any one clock
+can only send eight bits of information
+there's a 1 or a 0 on each of these wires
+
+and in order to access the dram chip the dram chip doesn't actually send data from the dram array onto the wires
+it actually has a buffer here which is like a digital buffer that stores the values
+the bits in one row of the dram chip so this is called the row buffer
+so this stores one row
+and so when you access data from a dram chip you're actually only accessing data for a bite sized chunk of information stored in this row buffer

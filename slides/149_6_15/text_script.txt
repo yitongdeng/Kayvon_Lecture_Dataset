@@ -1,0 +1,8 @@
+so here's my new simple computer
+i have a processor with its own memory its own memory dram
+which implements its own address space
+and i have some network whether it be the internet
+whether it be ethernet
+whether it be carrier pigeon
+
+i have some way to get information from one memory to the other

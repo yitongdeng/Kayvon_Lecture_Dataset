@@ -1,0 +1,13 @@
+it might look something like this
+
+it's got two percent it's got two threads
+intel likes to call these hyper threads that it can draw from and it has at least three eight wide vector alus
+and a bunch of scalar
+you know i plus one stuff that it can do so in every clock
+this chip is going
+
+i can utilize up to three vector operations per clock from these alus
+
+from those two threads
+
+so in some sense it can find a mole add it can find another mole add it can find another mole add

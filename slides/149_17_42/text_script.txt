@@ -1,0 +1,5 @@
+this three step process is shown here pictorially
+so first the exponential
+then the reduction
+
+which is row wise and then the division

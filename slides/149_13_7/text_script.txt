@@ -1,0 +1,13 @@
+of course the reason why i'm telling you all this is this can obviously happen in computing systems like a simple example might be
+imagine we had thread a and thread b
+and thread a pulls data out of some work queue and puts results in some output work queue
+
+and thread b supposed to pull data out of this work queue and put the data back in the one on the top
+
+so you might be in the case where thread a says well i'm not going to pull any new work because i have nowhere to put my output
+
+so thread a doesn't drain its input
+
+and it's waiting on b but b can't make any progress because there's nowhere for b to put its output
+
+so that's an example

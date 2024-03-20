@@ -1,0 +1,3 @@
+so let's check that yep so i have a chain of just dependencies
+
+an output came from values in bright and values in lookup

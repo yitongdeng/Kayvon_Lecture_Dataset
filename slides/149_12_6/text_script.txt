@@ -1,0 +1,11 @@
+so we reminded you that the idea
+
+we talked about a cache line
+we said there's a data component and the metadata
+
+and part of the metadata is the tag that indicates the line
+the address of the line that is contained in this cache
+
+a particular cache line
+and then the dirty bit indicating that the data has been modified in the cache
+and then the line state which is going to be used in the cache coherence protocol

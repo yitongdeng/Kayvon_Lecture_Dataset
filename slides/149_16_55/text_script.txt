@@ -1,0 +1,2 @@
+the focus of our programming has been on the cpu cores and their associated caches
+but of course they've also got an integrated gpu and graphics and media unit which takes a significant amount of the area of the chip and they've also got some other specialized components

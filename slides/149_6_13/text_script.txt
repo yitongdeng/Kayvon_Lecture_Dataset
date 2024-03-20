@@ -1,0 +1,5 @@
+and the difference is between
+is it done at the scale of the internet
+
+is it done at the scale of inside a single computer with threads
+or is it maybe done at the scale of a small cluster of computers or at large scale with a big rack or something like that

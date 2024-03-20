@@ -1,0 +1,29 @@
+or you go on amazon or newegg
+you buy yourself a dram dimm
+
+so the dimm is
+you know imm is the inline memory module
+there's just eight of these dram chips sitting there so this is now a 64 bit memory bus
+1 2 3 4 5 6 7 8
+
+so your intel processor
+your standard processor connected to a 64 bit memory bus
+the memory controller is sending a command
+
+and that command is not
+i want address x
+
+but that command is
+i want the byte at bank b row r column
+whatever
+
+and all eight dram chips get that same command
+they all return their data in bank b row r column
+zero
+and that all together is eight bytes of data
+
+so it's the memory controller's responsibility to say oh if i'm supposed to get a 64 byte cache line at this address
+
+where in this 3d address space of bank rows and columns is that data
+
+and you issue the request

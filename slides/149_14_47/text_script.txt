@@ -1,0 +1,5 @@
+and if you've done any kind of physical simulation
+
+you would know that that jet engine is going to be represented by a mesh
+
+and we're going to perform operations on the mesh

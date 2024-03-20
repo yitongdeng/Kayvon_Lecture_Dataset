@@ -1,0 +1,21 @@
+but now think about this one
+
+imagine a piece of code where i launched two thread blocks
+
+and one of them says
+
+okay
+update this variable in memory
+
+and then the other thread block says
+wait until that variable is updated
+
+so one thread block says
+i did something
+the other thread block waits for it
+
+imagine running this code on a process on a gpu that only can run one thread block at a time
+
+if it runs thread block one first
+thread block zero never gets to go
+and thread block one is waiting all the time

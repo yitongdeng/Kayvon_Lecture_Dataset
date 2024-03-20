@@ -1,0 +1,10 @@
+the cuda memory model is i have like void main
+
+presumably running on the cpu that has its own address space
+and in simplistic cuda
+
+then there's the device
+the gpu side of the world
+that has its own memory address space that can be accessed by the cuda threads
+
+okay

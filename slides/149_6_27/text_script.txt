@@ -1,0 +1,8 @@
+so now hopefully you get like a little bit of a sense of where all this memory latency comes from
+right like it's an l1 cache lookup an l2 cache lookup
+maybe you actually have a tlb miss because of you know in operating systems or something like that
+um maybe you
+like a request a message has to get sent to memory saying
+i want the data at this address and at some point the memory starts sending you the data back
+
+and if you have a bandwidth of b bits per second you start getting b bits per second back in that blue region

@@ -1,0 +1,14 @@
+we're gonna pre process the dependencies
+so again like the numbers are edges
+
+the letters are vertices
+and i said we're gonna analyze that and we're gonna actually look at which edges share the same vertex
+
+and we're gonna encode that in a graph where edge one and edge five have a line
+an edge between them
+if edge one and edge five in the mesh share a vertex
+so you can encode
+so one and five have an edge in this graph because one and five both write to c there
+
+and notice that there's no edge between eight and two
+so eight and two do not write to the same values

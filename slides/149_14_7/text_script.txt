@@ -1,0 +1,9 @@
+i can get the same result by actually just blurring 1d convolution across all the rows
+
+so every pixel is the average of the three left and right neighbor in itself
+
+and then i take that result and i blur vertically
+
+and if you think about it after the horizontal blur
+i've added up three numbers and then after the vertical blur
+i've taken those partial sums and added three of them together so i'm doing the exact same math

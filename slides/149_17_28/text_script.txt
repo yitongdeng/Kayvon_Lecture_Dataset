@@ -1,0 +1,16 @@
+so what do you do if you want to build an accelerator for this
+well
+
+remember
+
+you now have to control all the memory
+so let's assume that vec1 and vec2 are integer arrays in dram
+
+so it's clear here by this specification of dram
+that these two arrays are going to live in dram
+
+now we haven't said exactly how dram works but let's assume that we have a way of moving data between the dram and the accelerator using direct memory access which is an efficient way of moving data between the main memory and the accelerator
+
+and so
+we have an excel block
+which is where we are going to do the acceleration

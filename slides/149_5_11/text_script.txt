@@ -1,0 +1,5 @@
+so conceptually this is kind of like i have all this work
+
+i threw all the work in a shared work queue
+and i have a bunch of percent of percent of worker threads going to the queue and say pop me the next one
+pop me the next one now in this case i have a very efficient implementation of that queue because i know all my data is stored in percent in this array already

@@ -1,0 +1,23 @@
+but the name of the game is i have two different computers or two different threads
+
+and each thread
+keyword now
+
+works in its own address space
+
+so address x in thread 1's address space is not the same address as address x in thread 2's address space they are different address spaces
+the only way to exchange information
+like every thread can load and store the variables in its own address space but the only way to exchange information across these threads is to explicitly send a message
+
+so in this case
+rather than an http request
+i said
+look let's just abstractly say
+thread 1 is going to send the contents of its address x to thread 2 and tag the message with an id so that the receiver on the other side knows what it's getting
+
+correspondingly
+thread 2 is going to post
+a receive which says
+i want to receive the message with this id from thread 1
+and when we get the data
+we're going to put that data and store it as the contents of the address y in my own address space

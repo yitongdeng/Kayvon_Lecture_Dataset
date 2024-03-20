@@ -1,0 +1,10 @@
+and you see that a lot of the time
+
+the white and the black portions of the stack bar chart are due to the stm write
+which is black
+
+and the stm read
+which is write
+so the stm barriers add a lot of overhead
+
+and committing also adds a bunch of overhead

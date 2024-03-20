@@ -8,7 +8,8 @@ if __name__ == "__main__":
             continue
         print("___Processing: ", name, "___\n")
         indir = os.path.join(slides_dir, name)
-        for image in os.listdir(folder_dir):
+        for image in os.listdir(indir):
             # check if the image ends with jpg
             if (image.endswith(".jpg")):
-                os.rename(image, 'slide.jpg')
+                print("name before: ", image)
+                os.rename(os.path.join(indir, image), os.path.join(indir,'slide.jpg'))

@@ -1,0 +1,9 @@
+amd or nvidia gpu
+this is now the chip
+this is the processor
+
+this is what's called the silicon interposer
+which is a piece of silicon
+and that processor is on the silicon
+
+and then there's four different stack drams next to it all of which are 1 024 bits into the chip so this is a 4 000 bit memory bus

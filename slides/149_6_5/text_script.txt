@@ -1,0 +1,5 @@
+if i take a standard intel cpu these days it has a couple of cores
+there's a gpu on the same thing
+there's a network on this chip that connects all those cores and gets them all out to the same memory system
+
+and these networks can be quite complex

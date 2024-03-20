@@ -1,0 +1,25 @@
+so you can imagine that if you can get the performance you need with a cpu
+hey just go do it and program your application using a high level language
+if you need more performance
+then you keep going to the right
+gpus you may have to write some cuda
+
+dsp
+you might have to do assembly language programming
+
+domain specific compute
+well this might work quite well if your domain is something like machine learning
+and you can program this accelerator using a framework like pytorch or tensorflow
+that might work
+if you have to do an fpga
+then you basically have to become a hardware designer
+
+and asic is
+
+yeah definitely you're a hardware designer
+so as you move to the right
+you get more energy efficiency
+
+dramatically more energy efficient if you do an asic
+but then you have to work much harder
+and you've got to spend a lot more money

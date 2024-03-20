@@ -1,0 +1,23 @@
+so it's got three levels of cache
+
+l1 data cache
+
+which is 32 kilobytes in size
+
+an l2 cache
+
+which is per core
+
+so four cores
+
+the data cache is private per core
+the l2 cache is private per core
+
+then there's a ring interconnect
+
+which is as you might expect is a ring
+
+that connects all of the different l2 caches together
+and they connect to a shared l3 cache
+
+which is eight megabytes in size
