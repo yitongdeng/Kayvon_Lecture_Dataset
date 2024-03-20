@@ -1,6 +1,5 @@
 i like to think about three pieces of blocks in any modern processor
 ^507 x 812 @ (345, 233).
-^507 x 812 @ (345, 233).
 
 one of them which i'm always going to color orange throughout this class
 is about control
