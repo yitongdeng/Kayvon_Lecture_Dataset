@@ -1,50 +1,21 @@
-uh okay but we didn't talk very much about implementation
-
-so notice how i'm setting this up over and over
-there's what something means
-it's semantics
-like add these two numbers
-then add those two numbers or there is an array of of addresses and every address has a value
-and then the underlying implementation of that
-
-okay
 so if i tell you memory
-many of you might say the word dram or remember
-you know a big stick of memory that you might have shoved into a laptop at some time or something like that right and so what a dram chip does is is it provides it's the implementation of this abstraction
+many of you might say the word dram
+or remember a big stick of memory that you might have shoved into a laptop at some time or something like that
+
+and so what a dram chip does is it provides it's the implementation of this abstraction
 
 you send that dram chip a command that says
-give me the value that's stored at address you know hex b
+give me the value that's stored at address hex b
+
 and this memory chip will send 255 back
 
-but we talked about last time how it can take a while to go get that message out there to memory and come back
+but we talked about last time how it could take a while to go get that message out there to memory and come back
 
-and so all modern systems have some form of of a cache
-and this cache is another form of storage
+and so all modern systems have some form of a cache
 
-that's part of the implementation of memory
-but if the processor says
-i need address four
+and this cache is another form of storage that's part of the implementation of memory
+
+but if the processor says i need address four
 
 well that value might be stored in cache and it can get the answer much
 much faster
-so there's two kind of details of how a data cache works that are kind of useful to think about
-
-one is even though memory says
-if i
-if you give me an address i'll give you a value
-the underlying implementation in any modern system that i know about will move data from memory into the cache at some larger granularity of cache lines
-so in this figure
-this cache holds data for two cache lines
-each of those cache lines is four bytes
-
-so the bytes store
-you know beginning at address four
-so four
-five six
-seven
-these are the values out in memory that are replicated in the cache you should be able to confirm that if i did not mess up my figure
-right zero zero six zero
-okay so this is a cache that has the ability to replicate eight bytes
-it's organized into two cache lines of four bytes each
-
-and what i'm highlighting in red is sort of the place in the address space that corresponds to these two cache lines

@@ -1,21 +1,30 @@
 i like to think about three pieces of blocks in any modern processor
+^507 x 812 @ (345, 233).
+^507 x 812 @ (345, 233).
 
 one of them which i'm always going to color orange throughout this class
 is about control
 figuring out like it's managing where we are in the instruction stream and figuring out
 once i get the next instruction
 what do i do
+^366 x 149 @ (414, 382).
 
 then i have this yellow box which is responsible for the arithmetic
-maybe adding some numbers or carrying out a move or multiplying some numbers and i'm always going to call that yellow 
+maybe adding some numbers or carrying out a move or multiplying some numbers and i'm always going to call that yellow
+^364 x 163 @ (416, 537).
 
 and then i have stuff that's blue that's state
 and i'm calling this the execution context
 it's the context in which we run a program
 which is just a big set of values
+of bindings from 
+^364 x 292 @ (416, 706).
 
-of bindings from register one has this value
+register one has this value
+^283 x 34 @ (457, 866).
 
 register two has this value
+^283 x 37 @ (457, 905).
 
 as well as memory has all these values
+^.
