@@ -1,20 +1,42 @@
 and let's just think about the basic sequence of a conv layer
-we might do this big matrix multiplication and output a width by height by n by k output tensor
+^1236 x 182 @ (452, 274).
+
+we might do this big matrix multiplication 
+^239 x 144 @ (590, 312).
+
+and output a width by height by n by k output tensor
+^134 x 24 @ (810, 272).
 
 we're going to store that in memory
+and then we're going to bring it right back in
+^.
 
-and then we're going to bring it right back in and do something like add in the bias
+and do something like add in the bias
+^239 x 141 @ (928, 313).
+
 and then we're going to store that in memory
+and we're going to bring it right back in 
+^.
 
-and we're going to bring it right back in and do a max pull
+and do a max pool
+^239 x 141 @ (1262, 313).
 
 so this tensor is going in and out of memory over and over and over again
+^.
 
 and for these
 conv layer might be blockable
+^239 x 144 @ (590, 312).
+
 but scale and bias is not
+the only thing you're doing is multiplying every element by a number
+^239 x 141 @ (928, 313).
 
-the only thing you're doing is multiplying every element by a number and max pool
+and max pool
 there's not a lot of math in there i'm just taking every 2 by 2 region of the tensor
+computing the max and outputting that 
+^239 x 141 @ (1262, 313).
 
-computing the max and outputting that so these things here are severely bandwidth bound
+so these things here are severely bandwidth bound
+^239 x 141 @ (928, 313).
+^239 x 141 @ (1262, 313).

@@ -2,20 +2,32 @@ so in hadoop
 this is the case
 they're doing logistic regression
 which is a very simple ml operation
+^82 x 173 @ (495, 458).
 
 and k means
 which you're very familiar with because of course you've played with that
+^.
 
 so we see that hadoop
+the first iteration is 80 seconds 
+^36 x 133 @ (496, 458).
 
-the first iteration is 80 seconds and subsequent iterations don't get much faster
+and subsequent iterations don't get much faster
+^35 x 130 @ (537, 461).
 
 of course each iteration requires an hdfs read and an hdfs write
+^.
 
 the hadoop binary memory basically keeps a binary memory copy instead of a text copy
+^.
+
 and so it's slightly faster on the second iteration
+^82 x 173 @ (495, 458).
+
 but still has to access the disk
+^.
 
 then spark only has to do the hdfs read
 doesn't do the write just write straight to memory
 and so subsequent iterations are much faster
+^75 x 138 @ (733, 495).
