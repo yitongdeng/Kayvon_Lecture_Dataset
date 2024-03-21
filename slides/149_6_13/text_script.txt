@@ -1,5 +1,12 @@
 and the difference is between
 is it done at the scale of the internet
+^.
 
 is it done at the scale of inside a single computer with threads
-or is it maybe done at the scale of a small cluster of computers or at large scale with a big rack or something like that
+^.
+
+or is it maybe done at the scale of a small cluster of computers 
+^644 x 516 @ (1420, 463).
+
+or at large scale with a big rack or something like that
+^1226 x 610 @ (139, 456).

@@ -1,8 +1,23 @@
 so here's my new simple computer
-i have a processor with its own memory its own memory dram
+^.
+
+i have a processor
+^239 x 198 @ (603, 592).
+
+with its own memory its own memory dram
 which implements its own address space
+^159 x 141 @ (419, 748).
+
 and i have some network whether it be the internet
 whether it be ethernet
 whether it be carrier pigeon
+^1026 x 78 @ (619, 947).
 
-i have some way to get information from one memory to the other
+i have some way to get information 
+^.
+
+from one memory 
+^159 x 141 @ (419, 748).
+
+to the other
+^157 x 135 @ (1251, 750).
