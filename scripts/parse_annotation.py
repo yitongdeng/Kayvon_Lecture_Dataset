@@ -102,7 +102,8 @@ def parse_annotation(indir, outdir):
 
 
     # read back annotation
-    segments_loaded = open(os.path.join(indir, "processed_annotation.json"))
+    f = open(os.path.join(indir, "processed_annotation.json"))
+    segments_loaded = json.load(f)
 
     highlighteds = []
     for i in range(len(segments_loaded)):

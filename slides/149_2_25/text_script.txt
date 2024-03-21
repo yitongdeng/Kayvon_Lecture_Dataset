@@ -1,12 +1,22 @@
 i made that diagram that i had on the last slide just a little bit fancier
+^.
 
 i said
 look you had this out of order execution logic
+^667 x 79 @ (1008, 701).
 
 outside of this class there's all this other fun stuff that's in a processor to make an instruction stream go faster
 a lot of it's about not accessing memory
+^667 x 630 @ (1008, 356).
+
 like you might put a big old data cache that has a ton of transistors to hold a bunch of data on cache
+^667 x 312 @ (1008, 356).
+
 you might actually have logic that predicts what memory you're going to access in the future as a prefetcher
+^667 x 77 @ (1008, 907).
+
 they had all this fancy stuff in there to try and make the inner loop go as fast as possible
+^667 x 630 @ (1008, 356).
 
 but there's this outer loop that's trivial in a parallel
+^.

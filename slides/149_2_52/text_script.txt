@@ -1,17 +1,20 @@
 so here are some examples
-right this processor
+right 
+^.
 
+this processor
 one core
-
 superscalar
+^398 x 519 @ (31, 27).
 
 this processor down here
 two cores
 no vector
-
 no superscalar
+^587 x 368 @ (314, 799).
 
 this processor here
 four cores
 eight wide vector
 no superscalar
+^513 x 649 @ (1382, 428).
