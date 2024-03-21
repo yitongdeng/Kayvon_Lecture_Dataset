@@ -1,9 +1,22 @@
-i can get the same result by actually just blurring 1d convolution across all the rows
+i can get the same result by actually just 
+^.
+
+blurring 1d convolution across all the rows
+^944 x 514 @ (354, 384).
 
 so every pixel is the average of the three left and right neighbor in itself
+^.
 
 and then i take that result and i blur vertically
+^944 x 514 @ (839, 384).
 
 and if you think about it after the horizontal blur
-i've added up three numbers and then after the vertical blur
-i've taken those partial sums and added three of them together so i'm doing the exact same math
+i've added up three numbers
+^457 x 514 @ (839, 384).
+
+and then after the vertical blur
+i've taken those partial sums and added three of them together
+^457 x 514 @ (1323, 384).
+
+so i'm doing the exact same math
+^.

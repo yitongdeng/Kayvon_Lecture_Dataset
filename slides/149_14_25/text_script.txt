@@ -1,3 +1,11 @@
 so let's check that yep so i have a chain of just dependencies
+^570 x 828 @ (823, 225).
 
-an output came from values in bright and values in lookup
+and output came from
+^246 x 100 @ (824, 953).
+
+values in bright 
+^247 x 101 @ (823, 783).
+
+and values in lookup
+^247 x 101 @ (1144, 259).
