@@ -1,6 +1,10 @@
 import os
 import json
 import re
+from process_video import *
+import copy
+import shutil
+import argparse
 
 # Returns number of words in string
 def count_words(string):
@@ -36,20 +40,21 @@ def parse_bbox(s):
         A, B, C, D = map(int, match.groups())
         
         # Calculate A+C and B+D
-        return [A, B, A+C, B+D]
+        return [C, D, A+C, B+D]
     else:
         return []
 
 def parse_annotation(indir, outdir):
+    slide = cv2.imread(os.path.join(indir, 'slide.jpg'))
     
     # Opening "words" JSON file
-    text = open(os.path.join(outdir, "text_script.txt")).read()
+    text = open(os.path.join(indir, "text_script.txt")).read()
 
     text_segments = text.split('\n\n')
 
     pattern = re.compile(r"\^(.*?)\.")
 
-    f = open(os.path.join(outdir, "words.json"))
+    f = open(os.path.join(indir, "words.json"))
     data = json.load(f)
 
     starts = []
@@ -64,6 +69,7 @@ def parse_annotation(indir, outdir):
     segment_starts = []
     segment_ends = []
     total_words = 0
+    print("correct total words: ", len(starts))
     for i in range(len(text_segments)):
         curr_segment = {}
 
@@ -72,7 +78,7 @@ def parse_annotation(indir, outdir):
         print("matched bboxes: ", bboxes)
         curr_segment["bboxes"] = bboxes
     
-        text_segment = re.sub(pattern, '', text_segments[i]).replace("\n", ", ")[:-2]
+        text_segment = re.sub(r" +\n", "\n", re.sub(pattern, '', text_segments[i])).replace("\n", ", ")[:-2]
         print("text segment: ", text_segment)
         curr_segment["text"] = text_segment
 
@@ -83,24 +89,33 @@ def parse_annotation(indir, outdir):
 
         segments.append(curr_segment)
 
+    print("total words: ", total_words)
+    if (total_words == len(starts)):
+        print("total num words match!")
+    else:
+        print("total num words don't match, exit")
+        exit()
 
-        
-    # total_words = 0
-    # segment_starts = []
-    # segment_ends = []
-    # for i in range(len(matches)):
-    #     segment_starts.append(starts[total_words])
-    #     total_words += len(matches[i])
-    #     segment_ends.append(ends[total_words-1])
+    # dump annotation
+    with open(os.path.join(indir, "processed_annotation.json"), 'w') as f:
+        json.dump(segments, f, ensure_ascii=False)
+
+    highlighteds = []
+    for i in range(len(segments)):
+        print("processing segment: ", i)
+        slide_copy = copy.deepcopy(slide)
+        slide_copy = paint_bboxes(slide_copy, segments[i]["bboxes"])
+        highlighteds.append(slide_copy)
+    
+    create_image_video(indir, indir, slide, highlighteds, [s["start"] for s in segments], [s["end"] for s in segments])
         
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-n', '--name', type=str, required=True)
+    args = parser.parse_args()
+
     slides_dir = "../slides"
-    print("\n")
-    for name in os.listdir(slides_dir):
-        if name[0] == "." or name != "149_1_31": # .DS_Store
-            continue
-        print("___Processing: ", name, "___\n")
-        indir = os.path.join(slides_dir, name)
-        parse_annotation(indir, indir)
+    indir = os.path.join(slides_dir, args.name)
+    parse_annotation(indir, indir)

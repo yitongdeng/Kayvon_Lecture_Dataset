@@ -1,14 +1,21 @@
 so here again this is that iphone
 and now i'm highlighting some of the stuff down here
+^.
 
 on this processor
 there are six cpus
+^454 x 311 @ (362, 553).
 
 two of which are big cpu cores that are supposedly good at running single threads
+^244 x 126 @ (362, 738).
 
-there are four small cpu cores that are lower power and good for background stuff and then there's a whole bunch of stuff on there for camera
+there are four small cpu cores that are lower power and good for background stuff
+^178 x 184 @ (598, 555).
+
+and then there's a whole bunch of stuff on there for camera
 neural networks
-
-sensing your heart monitor
+sensing 
+your heart monitor
 all this other stuff that's never even run on the cpu
 it's run on specialized processing
+^223 x 202 @ (393, 860).

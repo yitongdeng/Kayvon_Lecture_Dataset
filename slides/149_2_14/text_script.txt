@@ -1,21 +1,24 @@
 so if i tell you memory
 many of you might say the word dram
 or remember a big stick of memory that you might have shoved into a laptop at some time or something like that
+^130 x 388 @ (1712, 586).
 
 and so what a dram chip does is it provides it's the implementation of this abstraction
+^1105 x 821 @ (748, 363).
 
 you send that dram chip a command that says
 give me the value that's stored at address hex b
-
 and this memory chip will send 255 back
+^395 x 39 @ (1300, 843).
 
 but we talked about last time how it could take a while to go get that message out there to memory and come back
+^.
 
 and so all modern systems have some form of a cache
-
 and this cache is another form of storage that's part of the implementation of memory
+^385 x 175 @ (780, 816).
 
 but if the processor says i need address four
-
 well that value might be stored in cache and it can get the answer much
 much faster
+^385 x 28 @ (780, 923).
