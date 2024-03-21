@@ -1,23 +1,41 @@
 we start out in invalid state
+^102 x 101 @ (959, 808).
 
 and we issue a process to read
 and this results in a bus read
+^126 x 21 @ (842, 745).
+
 it says
 get me the cash line
 because i want to read it
-so that means that the line has to move from invalid to shared
+^126 x 21 @ (842, 745).
+
+so that means that the line has to move
+^.
+
+from invalid 
+^102 x 101 @ (959, 808).
+
+to shared
+^102 x 100 @ (956, 623).
 
 and then if the application then does a write
-
 to that address
-
 which is contained in the cash line
-then it's going to issue a process to read
+^.
 
+then it's going to issue a process to write
 and the result on the bus is a bus read exclusive
+^139 x 20 @ (839, 578).
 
 and so bus read exclusive says
-hey now i need to move the state of the cash line from shared to modified
-and modified means that of course
+hey now i need to move the state of the cash line
+^139 x 20 @ (839, 578). 
 
+from shared 
+^102 x 100 @ (956, 623).
+
+to modified
+and modified means that of course
 that this is the only cash line in the system that is in modified state
+^102 x 100 @ (943, 451).

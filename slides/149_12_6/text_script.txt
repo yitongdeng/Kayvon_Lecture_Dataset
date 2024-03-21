@@ -1,11 +1,22 @@
 so we reminded you that the idea
+^.
 
 we talked about a cache line
-we said there's a data component and the metadata
+^1089 x 48 @ (193, 446).
+
+we said there's a data component 
+^775 x 48 @ (507, 446).
+
+and the metadata
+^317 x 48 @ (191, 446).
 
 and part of the metadata is the tag that indicates the line
 the address of the line that is contained in this cache
-
 a particular cache line
+^189 x 48 @ (316, 446).
+
 and then the dirty bit indicating that the data has been modified in the cache
+^13 x 48 @ (190, 446).
+
 and then the line state which is going to be used in the cache coherence protocol
+^110 x 48 @ (203, 446).

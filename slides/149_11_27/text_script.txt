@@ -1,23 +1,30 @@
 so it's got three levels of cache
+^.
 
 l1 data cache
-
 which is 32 kilobytes in size
+^544 x 49 @ (505, 745).
 
 an l2 cache
-
 which is per core
+^544 x 89 @ (505, 591).
 
 so four cores
+^544 x 89 @ (505, 828).
 
 the data cache is private per core
+^544 x 49 @ (505, 745).
+
 the l2 cache is private per core
+^544 x 89 @ (505, 591).
 
 then there's a ring interconnect
-
 which is as you might expect is a ring
+^544 x 36 @ (504, 520).
 
 that connects all of the different l2 caches together
-and they connect to a shared l3 cache
+^544 x 160 @ (504, 520).
 
+and they connect to a shared l3 cache
 which is eight megabytes in size
+^544 x 285 @ (504, 395).

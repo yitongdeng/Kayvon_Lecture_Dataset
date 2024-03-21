@@ -1,15 +1,25 @@
 for instance
 the i7 that's used in your myth machines
-so you've got a ring interconnect
+^.
 
+so you've got a ring interconnect
 and the ring interconnect is not a broadcast interconnect
 and so snooping won't work here
+^547 x 34 @ (158, 499).
+
 and it's also
 of course more scalable
+^.
 
 but what we have is we have a directory associated with the l3 cache
-
 for this to work
+^547 x 89 @ (158, 372).
 
-we have to guarantee that every cache line that could be in any of the l2s will also be in l3
+we have to guarantee that every cache line that could be in any of the l2s
+^548 x 89 @ (159, 568).
+
+will also be in l3
+^547 x 89 @ (158, 372).
+
 this property is called inclusion
+^67 x 16 @ (839, 507).
