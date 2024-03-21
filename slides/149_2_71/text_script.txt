@@ -1,13 +1,23 @@
 so here's my new core
+this is a core that in this class i'll use the term hardware multithreaded 
+^.
 
-this is a core that in this class i'll use the term hardware multithreaded it means the hardware has the ability to run two different instruction streams
+it means the hardware has the ability to run two different instruction streams
 or has the ability to maintain state for two different instruction streams
-but this core
-as i've drawn it can only run one instruction per clock
-and in this case i've actually redrawn it to be a scalar instruction
+^571 x 219 @ (792, 717).
 
+but this core
+as i've drawn it 
+can only run one instruction per clock
+and in this case i've actually redrawn it to be a scalar instruction
 you can see from the diagram
+^243 x 93 @ (951, 604).
+
 so single core processor
+^.
 
 multithreaded core
+^571 x 219 @ (792, 717).
+
 can run one scalar instruction per clock from one of the threads
+^243 x 93 @ (951, 604).

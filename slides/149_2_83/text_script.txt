@@ -1,13 +1,24 @@
 it might look something like this
+^.
 
-it's got two percent it's got two threads
-intel likes to call these hyper threads that it can draw from and it has at least three eight wide vector alus
+it's got two core it's got two threads
+intel likes to call these hyper threads that it can draw from 
+^337 x 147 @ (872, 696).
+
+and it has at least three eight wide vector alus
+^817 x 68 @ (961, 560).
+
 and a bunch of scalar
-you know i plus one stuff that it can do so in every clock
-this chip is going
+you know i plus one stuff that it can do 
+^514 x 82 @ (357, 546).
 
+so in every clock
+this chip is going
 i can utilize up to three vector operations per clock from these alus
+^817 x 68 @ (961, 560).
 
 from those two threads
+^337 x 147 @ (872, 696).
 
-so in some sense it can find a mole add it can find another mole add it can find another mole add
+so in some sense it can find a mul add it can find another mul add it can find another mul add
+^817 x 68 @ (961, 560).
