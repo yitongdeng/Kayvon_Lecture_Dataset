@@ -1,25 +1,47 @@
 well if i take your strategy
+^.
 
 then what happens is the front part of this program now goes to time n squared over p
+^73 x 311 @ (1010, 766).
+
 and i haven't touched the back half of the program
+^413 x 94 @ (1082, 983).
 
 what's my speed up
+^.
 
 perfectly paralyzed the first part of the program
-didn't touch the back half but my speed up is what
+^73 x 311 @ (1010, 766).
 
+didn't touch the back half 
+^413 x 94 @ (1082, 983).
+
+but my speed up is what
 in the limit let's say is n is huge
-
 sorry
-it's twice right so like what is my overall performance
+^.
+
+it's twice right
+^202 x 40 @ (164, 911).
+
+so like what is my overall performance
 well it used to be 2n squared
+^75 x 45 @ (401, 640).
 
 and now it's n squared over p plus n squared
+^142 x 132 @ (370, 712).
+
 and in the limit
 that's going to go to bounded by 2
+^202 x 40 @ (164, 911).
 
 so half my program remains sequential
 there's nothing i can do
+^413 x 94 @ (1082, 983).
+
 i can't be any fancier here
 if i went to a million processors
+^73 x 311 @ (1010, 766).
+
 i would still be bounded by 2
+^202 x 40 @ (164, 911).
