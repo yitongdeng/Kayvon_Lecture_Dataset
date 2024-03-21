@@ -1,2 +1,9 @@
 okay
-so all of the big vendors have their own deep learning libraries like kudi and n or intel's one api these days
+so all of the big vendors have their own deep learning libraries 
+^.
+
+like cuDNN and n 
+^758 x 615 @ (49, 313).
+
+or intel's one api these days
+^1045 x 670 @ (992, 312).

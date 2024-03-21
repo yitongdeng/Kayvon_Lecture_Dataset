@@ -1,3 +1,11 @@
-so if i run this code on an image that looks like this
+so if i run this code 
+^.
+
+on an image that looks like this
+^563 x 564 @ (487, 546).
+
 you'll get an image that looks like that
+^563 x 564 @ (1110, 546).
+
 that's one example of a convolution
+^.

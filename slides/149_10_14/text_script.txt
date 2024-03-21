@@ -1,10 +1,18 @@
 and then we're just going to repeat this process over and over and over
+^.
 
 producing a bunch of filters
+^279 x 239 @ (423, 410).
 
 taking it through that function f
 which is setting everything to clamping at zero
+^77 x 42 @ (1031, 569).
 
 and then maybe actually doing a few other calculations
+^.
+
 like in this case a max pool is largely just a down sample
+^152 x 109 @ (1433, 573).
+
 and so on and so on
+^.

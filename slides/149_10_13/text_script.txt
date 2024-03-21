@@ -1,8 +1,25 @@
 and a common way to visualize this stuff is think about these n dimensional tensors
+^.
+
 so imagine you had an input image that's width by height
 so it's width by height by 1
+^273 x 640 @ (587, 227).
 
-and then imagine i have all of these different filters that are just like you know like i just showed you 3 by 3 matrix of values and stuff like that so there i have these 3 by 3 filters and if i'm gonna do num filters of them i'm gonna percent i'm just percent just for convenience i'm gonna stack them together in a tensor so it's 3 by 3 by number of these filters
+and then imagine i have all of these different filters 
+that are just like you know like i just showed you 3 by 3 matrix of values and stuff like that 
+^311 x 227 @ (824, 399).
 
-and so if i do num filters convolutions of this
+so there i have these 3 by 3 filters and if i'm gonna do num filters of them i'm gonna em i'm just em just for convenience i'm gonna stack them together in a tensor so it's 3 by 3 by number of these filters
+^311 x 227 @ (824, 399).
+
+and so if i do
+^.
+
+num filters convolutions 
+^311 x 227 @ (824, 399).
+
+of this
+^273 x 640 @ (587, 227).
+
 i should get width by height by num filters amount of output
+^237 x 618 @ (1213, 238).
