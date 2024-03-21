@@ -1,12 +1,35 @@
 another example of it is if you just go out and buy a motherboard that has two sockets in it for two physical cpus
+^813 x 688 @ (109, 371).
 
 you know let's say there's two different four core cpus
+^324 x 334 @ (1010, 663).
+^317 x 331 @ (1494, 666).
 
 there's an on chip network
 that ring connecting the cores
-the one i showed you and then there are traces out over the dual socket board
+the one i showed you
+^178 x 65 @ (1080, 830).
+^170 x 65 @ (1567, 830).
 
-and a load or a store from core 1 to address x in that diagram might be a lot faster
-or a good bit faster than a load and store from let's say
-core 8 to address x
+and then there are traces out over the dual socket board
+^517 x 109 @ (1151, 637).
+
+and a load or a store from core 1
+^83 x 81 @ (1052, 755).
+
+to address x in that diagram
+^54 x 45 @ (1021, 555).
+
+might be a lot faster
+or a good bit faster than 
+^.
+
+a load and store from let's say
+core 8
+^85 x 81 @ (1679, 893). 
+
+to address x
+^54 x 45 @ (1021, 555).
+
 regardless of the caching behavior or things like that
+^.

@@ -1,5 +1,17 @@
-if i take a standard intel cpu these days it has a couple of cores
+if i take a standard intel cpu these days 
+^882 x 582 @ (188, 318).
+
+it has a couple of cores
+^322 x 539 @ (369, 361).
+
 there's a gpu on the same thing
-there's a network on this chip that connects all those cores and gets them all out to the same memory system
+^351 x 539 @ (716, 361).
+
+there's a network on this chip that connects all those cores
+^557 x 387 @ (1308, 505).
+
+and gets them all out to the same memory system
+^379 x 115 @ (1303, 346).
 
 and these networks can be quite complex
+^557 x 387 @ (1308, 505).
