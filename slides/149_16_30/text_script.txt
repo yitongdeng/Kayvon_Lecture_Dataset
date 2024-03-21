@@ -1,10 +1,24 @@
 and you see that a lot of the time
+^.
 
-the white and the black portions of the stack bar chart are due to the stm write
+the white and the black portions of the stack bar chart are due to 
+^106 x 34 @ (531, 434).
+^77 x 107 @ (840, 440).
+
+the stm write
 which is black
+^105 x 15 @ (532, 434).
+^84 x 7 @ (836, 437).
 
 and the stm read
-which is write
+which is white
+^105 x 16 @ (531, 454).
+^77 x 101 @ (840, 446).
+
 so the stm barriers add a lot of overhead
+^106 x 34 @ (531, 434).
+^77 x 107 @ (840, 440).
 
 and committing also adds a bunch of overhead
+^106 x 56 @ (531, 473).
+^81 x 60 @ (837, 550).

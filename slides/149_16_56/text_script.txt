@@ -1,4 +1,12 @@
 but of course it creates a more difficult programming paradigm
-right we've already seen that you need multiple threads for the cpu cores
+right we've already seen that
+^.
+
+you need multiple threads for the cpu cores
+^224 x 368 @ (510, 366).
+
 you need some data parallel programming model like cuda for the gpu
+^219 x 368 @ (272, 366).
+
 and you might need a different programming model for the media components
+^101 x 368 @ (750, 365).

@@ -1,25 +1,42 @@
-so you can imagine that if you can get the performance you need with a cpu
+so you can imagine that 
+^.
+
+if you can get the performance you need with a cpu
 hey just go do it and program your application using a high level language
+^193 x 164 @ (105, 446).
+
 if you need more performance
 then you keep going to the right
+^.
+
 gpus you may have to write some cuda
+^188 x 202 @ (342, 416).
 
 dsp
 you might have to do assembly language programming
+^167 x 79 @ (565, 448).
 
 domain specific compute
 well this might work quite well if your domain is something like machine learning
-and you can program this accelerator using a framework like pytorch or tensorflow
+and you can program this accelerator using a framework like pytorch or tensor-flow
 that might work
+^141 x 212 @ (756, 413).
+
 if you have to do an fpga
 then you basically have to become a hardware designer
+^175 x 177 @ (983, 421).
 
 and asic is
-
 yeah definitely you're a hardware designer
+^192 x 140 @ (1207, 445).
+
 so as you move to the right
 you get more energy efficiency
+^.
 
 dramatically more energy efficient if you do an asic
+^192 x 140 @ (1207, 445).
+
 but then you have to work much harder
 and you've got to spend a lot more money
+^.

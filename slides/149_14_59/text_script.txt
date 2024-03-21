@@ -1,14 +1,50 @@
 we're gonna pre process the dependencies
+^.
+
 so again like the numbers are edges
+^1416 x 141 @ (90, 156).
 
 the letters are vertices
-and i said we're gonna analyze that and we're gonna actually look at which edges share the same vertex
+^1352 x 147 @ (95, 412).
 
-and we're gonna encode that in a graph where edge one and edge five have a line
+and i said we're gonna analyze that and we're gonna actually look at 
+^.
+
+which edges share
+^1416 x 141 @ (90, 156). 
+
+the same vertex
+^1352 x 147 @ (95, 412).
+
+and we're gonna encode that in a graph 
+^752 x 442 @ (78, 691).
+
+where edge one and edge five have a line
 an edge between them
-if edge one and edge five in the mesh share a vertex
-so you can encode
-so one and five have an edge in this graph because one and five both write to c there
+^321 x 91 @ (78, 691).
+
+if edge one and edge five in the mesh 
+share a vertex
+^114 x 88 @ (219, 210).
+^114 x 88 @ (690, 209).
+
+so you can kinda
+^.
+
+so one and five have an edge in this graph 
+^321 x 91 @ (78, 691).
+
+because one and five 
+^114 x 88 @ (219, 210).
+^114 x 88 @ (690, 209).
+
+both write to c there
+^114 x 88 @ (452, 414).
 
 and notice that there's no edge between eight and two
+^114 x 88 @ (480, 692).
+^114 x 88 @ (177, 901).
+
 so eight and two do not write to the same values
+^114 x 88 @ (1039, 209).
+^115 x 88 @ (337, 209).
