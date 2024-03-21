@@ -1,10 +1,34 @@
 but now
-let's think a little bit about what it would take to either specify or program a accelerator where you get to specify a bunch of things that you don't get to control if you're thinking about a general purpose environment
+let's think a little bit about what it would take to either 
+^.
+
+specify or program a accelerator where you get to specify a bunch of things that you don't get to control
+^481 x 605 @ (899, 306).
+
+if you're thinking about a general purpose environment
+^816 x 605 @ (51, 309).
+
 in particular
 you get to have some custom memory system
-right a lot of the performance improvement you can get in any particular piece of hardware has to do with how you organize the memory to exploit the particular characteristics of locality and access behavior that you see in your application
+right 
+^281 x 62 @ (993, 476).
+^282 x 61 @ (1006, 825).
+
+a lot of the performance improvement you can get in any particular piece of hardware has to do with how you organize the memory
+^281 x 62 @ (993, 476).
+^282 x 61 @ (1006, 825).
+
+to exploit the particular characteristics of locality and access behavior that you see in your application
+^.
 
 and you get specialized compute that matches what you need in your application
-right so the question is
-how do we think about or how do we program specialized processes or accelerators
+right 
+^374 x 69 @ (961, 730).
+
+so the question is
+how do we think about or 
+^.
+
+how do we program specialized processes or accelerators
 right
+^481 x 605 @ (899, 306).
