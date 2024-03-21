@@ -1,8 +1,20 @@
 another analogy here is imagine you had two pipes
-and if we ignore the actual physics reason that if i push more water down one pipe it speeds up and they rate match but let's say that i had one pipe that could do 100 liters a second before it burst
-and another pipe that could do 50 liters per second before it burst and i connect them together i'm only getting 50 liters per second out of the system
+and if we ignore the actual physics reason that if i push more water down one pipe it speeds up and they rate match 
+^.
+
+but let's say that i had one pipe that could do 100 liters a second before it burst
+^1100 x 562 @ (91, 261).
+
+and another pipe that could do 50 liters per second before it burst 
+^862 x 437 @ (1198, 261).
+
+and i connect them together 
+^.
+
+i'm only getting 50 liters per second out of the system
+^259 x 50 @ (931, 1022).
 
 i'm going to run at the lower of the throughputs when i link things together
 okay
-
 all right
+^.

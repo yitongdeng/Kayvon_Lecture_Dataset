@@ -1,6 +1,25 @@
-and what i'd like you to walk away with is convince yourself that all four of these gray boxes are correct and valid implementations of that pink box
+and what i'd like you to walk away with is 
+^.
+
+convince yourself that all four of these gray boxes 
+^920 x 208 @ (91, 520).
+^920 x 244 @ (91, 855).
+^963 x 303 @ (1084, 274).
+^963 x 407 @ (1084, 692).
+
+are correct and valid implementations of that pink box
+^918 x 161 @ (93, 222).
+
 so in other words i want you to be able to convince yourself
 what does the pink box mean
+^918 x 161 @ (93, 222).
 
-and convince yourself that if i was a compiler and change the pink box to any of these gray boxes
+and convince yourself that if i was a compiler and change the pink box 
+^918 x 161 @ (93, 222).
+
+to any of these gray boxes
 it would be a valid implementation
+^920 x 208 @ (91, 520).
+^920 x 244 @ (91, 855).
+^963 x 303 @ (1084, 274).
+^963 x 407 @ (1084, 692).

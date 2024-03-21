@@ -82,13 +82,15 @@ def parse_annotation(indir, outdir):
         print("matched bboxes: ", bboxes)
         curr_segment["bboxes"] = bboxes
     
-        text_segment = re.sub(r" +\n", "\n", re.sub(pattern, '', text_segments[i])).replace("\n", ", ")[:-2]
+        #text_segment = re.sub(r" +\n", "\n", re.sub(pattern, '', text_segments[i])).replace("\n", ", ")[:-2]
+        text_segment = re.sub(r" +\n", "\n", re.sub(pattern, '', text_segments[i])).rstrip().replace("\n", ", ")
         print("text segment: ", text_segment)
         curr_segment["text"] = text_segment
 
         segment_num_words = count_words(text_segment)
         curr_segment["start"] = starts[total_words]
         total_words += segment_num_words
+        print("total words: ", total_words)
         curr_segment["end"] = ends[total_words-1]
 
         segments.append(curr_segment)
