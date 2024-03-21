@@ -1,5 +1,16 @@
-so conceptually this is kind of like i have all this work
+so conceptually this is kind of like 
+^.
+
+i have all this work
+^808 x 149 @ (828, 259).
 
 i threw all the work in a shared work queue
-and i have a bunch of percent of percent of worker threads going to the queue and say pop me the next one
-pop me the next one now in this case i have a very efficient implementation of that queue because i know all my data is stored in percent in this array already
+^114 x 319 @ (1172, 509).
+
+and i have a bunch of em of em of worker threads going to the queue and say 
+pop me the next one
+pop me the next one 
+^423 x 75 @ (1011, 930).
+
+now in this case i have a very efficient implementation of that queue because i know all my data is stored in the in this array already
+^.

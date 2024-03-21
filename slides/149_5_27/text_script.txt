@@ -1,13 +1,27 @@
-so here's an example my function that calls foo and bar
+so here's an example my function 
+^167 x 34 @ (186, 169).
+
+that calls foo 
+^106 x 26 @ (136, 328).
+
+and bar
+^106 x 26 @ (136, 366).
 
 and i'm starting to adopt this illustration here on the right
-
 which illustrates kind of the stack or the sequence of execution of this thread of control
+^150 x 801 @ (1438, 173).
 
 so in this thread of control there's like part a
 the part of my func before the
 the call to foo
+^85 x 50 @ (1472, 343).
 
 then there will be the execution of foo
-then the execution of bar and then everything after bar
+^85 x 43 @ (1472, 504).
+
+then the execution of bar 
+^85 x 49 @ (1472, 656).
+
+and then everything after bar
 that's just normal c function calls
+^85 x 48 @ (1472, 811).
