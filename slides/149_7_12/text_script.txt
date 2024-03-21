@@ -1,12 +1,18 @@
 we can get pretty sophisticated with our materials
+^.
 
-like if we look at the glints in these shoes if we look at the fact that human skin light enters the skin
+like if we look at the glints in these shoes 
+^865 x 624 @ (131, 571).
 
-bounces around a lot and comes out somewhere else
+if we look at the fact that human skin light enters the skin
+bounces around a lot 
+and comes out somewhere else
+^416 x 428 @ (259, 133).
 
 simulating how light bounces off these materials
 to just compute the color of these triangles
+^.
 
 people were like the materials of the world are so different
-
 we just want to write a program that does this
+^.

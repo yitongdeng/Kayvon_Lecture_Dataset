@@ -1,10 +1,31 @@
 i have organized my code
-
 instead of just saying launch 72 threads
-
 i have said launch a certain number of thread blocks
+^868 x 429 @ (997, 271).
+
 and each block is a 4x3 grid of threads
+^631 x 394 @ (103, 724).
+
 so the thread id is two dimensional
 those are these numbers
+^62 x 25 @ (198, 778).
+^60 x 23 @ (349, 779).
+^54 x 23 @ (501, 779).
+^53 x 23 @ (651, 779).
+^53 x 22 @ (203, 893).
+^54 x 22 @ (352, 893).
+^53 x 21 @ (500, 894).
+^53 x 20 @ (651, 893).
+^53 x 21 @ (203, 1007).
+^54 x 21 @ (352, 1007).
+^54 x 21 @ (501, 1007).
+^53 x 21 @ (651, 1007).
 
-the block dims are not on this slide but the block dim is 4x3 and then the block index is whatever the current block is
+the block dims are not on this slide 
+^.
+
+but the block dim is 4x3 and 
+^631 x 394 @ (103, 724).
+
+then the block index is whatever the current block is
+^129 x 28 @ (355, 733).

@@ -1,17 +1,27 @@
 so the goal of an original gpu design was to solve one specific problem
-
 and that one specific problem was
+^.
 
 given some mathematical description of a scene
+and that mathematical description was kind of 
+^.
 
-and that mathematical description was kind of the geometry of surfaces
+the geometry of surfaces
+^679 x 396 @ (319, 312).
+
 the location of lights
+^.
+
 the position of some fake virtual camera
+^.
 
 perform a simulation
-
-simulate the bouncing of light in the scene simulate all these materials
+simulate the bouncing of light in the scene 
+simulate all these materials
+^.
 
 and give me a picture of what i would have seen if that was a real camera at that location
+^615 x 462 @ (1131, 259).
 
 that was the goal of a graphics chip
+^.
