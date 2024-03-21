@@ -1,21 +1,53 @@
 these days
 if you want this high bandwidth memory
-this is your cpu or gpu and it's right on a silicon chip
+^.
 
-right it's on a silicon chip and on that same silicon chip is a memory module right into it so now the connections between these two are actually wires on a piece of silicon
+this is your cpu or gpu 
+^386 x 60 @ (1648, 763).
+
+and it's right on a silicon chip
+right it's on a silicon chip and on that same silicon chip 
+^1315 x 68 @ (721, 840).
+
+is a memory module right into it
+^728 x 57 @ (872, 763). 
+
+so now the connections between these two 
+^728 x 57 @ (872, 763).
+^386 x 60 @ (1648, 763).
+
+are actually wires on a piece of silicon
 they're not board traces
 okay
+^1315 x 68 @ (721, 840).
+
 and then the dram chip is actually stacked
 which means that these dram chips are on top of each other physically
+^673 x 281 @ (900, 463).
 
 and the key technology was this thing called the ts via
 through silicon via
+^194 x 40 @ (1193, 460).
 
-so you can think about the wires that used to be like eight wires at the edge of the chip are now wires that leave the chip throughout the dram array
-so you kind of get area amount of space and not one edge of the chip amount of space so you can run a lot more wires right off the bottom of the chip
+so you can think about the wires that used to be like eight wires at the edge of the chip 
+^.
+
+are now wires that leave the chip throughout the dram array
+^112 x 344 @ (1193, 460).
+
+so you kind of get area amount of space and not one edge of the chip amount of space 
+^.
+
+so you can run a lot more wires right off the bottom of the chip
 like from everywhere in that array
-
 and those wires have to run through the dram chips below it
+^112 x 344 @ (1193, 460).
 
-so there's these vertical wires that then go right into a piece of silicon
+so there's these vertical wires
+^112 x 344 @ (1193, 460).
+
+that then go right into a piece of silicon
+^1315 x 68 @ (721, 840).
+
 right over to the gpu
+^386 x 60 @ (1648, 763).

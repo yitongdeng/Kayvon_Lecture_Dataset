@@ -1,29 +1,50 @@
 or you go on amazon or newegg
 you buy yourself a dram dimm
-
 so the dimm is
 you know imm is the inline memory module
-there's just eight of these dram chips sitting there so this is now a 64 bit memory bus
+^608 x 137 @ (1438, 138).
+
+there's just eight of these dram chips sitting there 
+^1406 x 267 @ (300, 318).
+
+so this is now a 64 bit memory bus
 1 2 3 4 5 6 7 8
+^1481 x 215 @ (347, 505).
 
 so your intel processor
-your standard processor connected to a 64 bit memory bus
+your standard processor 
+^1408 x 404 @ (311, 714).
+
+connected to a 64 bit memory bus
+^1481 x 215 @ (347, 505).
+
 the memory controller is sending a command
+^1370 x 106 @ (331, 727).
 
 and that command is not
 i want address x
+^.
 
 but that command is
-i want the byte at bank b row r column
-whatever
+i want the byte at bank b row r column whatever
+^456 x 65 @ (1171, 740).
 
 and all eight dram chips get that same command
-they all return their data in bank b row r column
-zero
+they all return their data in bank b row r column zero
+^1406 x 267 @ (300, 318).
+
 and that all together is eight bytes of data
+^.
 
-so it's the memory controller's responsibility to say oh if i'm supposed to get a 64 byte cache line at this address
+so it's the memory controller's responsibility to say 
+^1370 x 106 @ (331, 727).
 
-where in this 3d address space of bank rows and columns is that data
+oh if i'm supposed to get a 64 byte cache line at this address
+where in this 
+^.
+
+3d address space of bank rows and columns is that data
+^456 x 65 @ (1171, 740).
 
 and you issue the request
+^.
