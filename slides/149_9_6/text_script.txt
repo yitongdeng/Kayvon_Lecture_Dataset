@@ -1,43 +1,71 @@
 you've got hundreds of racks of computers
+^345 x 197 @ (255, 312).
 
-and each of the racks is organized in the following way at the top of the rack you've got this top of rack switch
+and each of the racks is organized in the following way
+^.
+
+at the top of the rack you've got this top of rack switch
 which is the networking interface to the rest of the racks in the system
+^359 x 66 @ (156, 531).
 
 and then within the rack
 you've got a stack of computer servers
+^.
+
 and you can have 20 to 40 servers
+^274 x 32 @ (181, 894).
 
 and how many servers you can fit in the rack is really dependent on the amount of power that you can actually deliver to the rack
 and that will be dependent on what infrastructure you've built in the data center
+^.
+
 so that could range from 12 to 20 kilowatts
+^139 x 32 @ (461, 894).
 
 and if these racks
 today if you're in the ml regime and they have gpus in them
 then of course the number of computers you can fit in the rack is dramatically lower
-
 because gpus take a lot more power
+^.
 
 so then the way to think about it then is
-ok so within the rack
+^.
 
-you've got the nodes or servers are connected today between 1 to 2 gigabytes of bandwidth
+ok so within the rack you've got the nodes or servers are connected 
+today between 1 to 2 gigabytes of bandwidth
+^208 x 257 @ (372, 599).
 
 and then between the racks
 so outside the racks
 early on it was maybe a tenth of a gigabyte
-
 today it might go up to 2 gigabytes
-so let's look at what an individual node looks like so you've seen this picture before in the sense that you've got maybe a two socket system which means two cpu chips
+^218 x 256 @ (107, 600).
+
+so let's look at what an individual node looks like 
+^.
+
+so you've seen this picture before in the sense that you've got maybe 
+^248 x 541 @ (703, 383).
+
+a two socket system which means two cpu chips
 each of those chips could contain 16 to 32 cpu cores
+^144 x 91 @ (727, 543).
 
 and then they're connected to ddr chips which provide the main memory
-and you might have 128 to 2 terabytes of dram
-main memory
+and you might have 128 to 2 terabytes of dram main memory
+^211 x 86 @ (707, 410).
+
 and the bandwidth channel between them is roughly 100 to 200 gigabytes per second
+^125 x 95 @ (799, 464).
+
 and then from the i o point of view
+^.
+
 then you've got i o
 which is to storage
 which is solid state disk
-
 which would give you 10 to 30 terabytes of storage
+^211 x 136 @ (721, 713).
+
 and then the other i o interfaces to the network
+^181 x 79 @ (517, 540).

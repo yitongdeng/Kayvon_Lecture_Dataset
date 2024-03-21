@@ -1,12 +1,19 @@
 every thread block has an address space that only those threads can access
+^227 x 170 @ (616, 250).
 
 and every thread has its own local address space
 like its own local stack that only it can access
+^227 x 75 @ (616, 458).
 
 so you know local variables to a thread can only be accessed by the thread that makes sense
 that's like ispc
+^227 x 75 @ (616, 458).
 
 but now there's like per thread block variables
+^227 x 170 @ (616, 250).
 
-which are kind of like uniform variables in istc actually but there's per thread block variables
+which are kind of like uniform variables in ispc actually but there's per thread block variables
+^227 x 170 @ (616, 250).
+
 and then there's overall device global memory that can be accessed by any thread with loads and stores
+^229 x 859 @ (1577, 238).

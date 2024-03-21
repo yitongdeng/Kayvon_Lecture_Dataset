@@ -1,10 +1,14 @@
-the cuda memory model is i have like void main
+the cuda memory model is i have like
+^.
 
-presumably running on the cpu that has its own address space
+void main presumably running on the cpu that has its own address space
+^441 x 598 @ (439, 289).
+
 and in simplistic cuda
+^.
 
 then there's the device
 the gpu side of the world
 that has its own memory address space that can be accessed by the cuda threads
-
 okay
+^441 x 598 @ (1190, 286).

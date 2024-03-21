@@ -1,21 +1,34 @@
 but now think about this one
+^.
 
 imagine a piece of code where i launched two thread blocks
+^488 x 238 @ (492, 528).
+^488 x 237 @ (1110, 530).
 
 and one of them says
-
 okay
 update this variable in memory
+^488 x 238 @ (492, 528).
 
 and then the other thread block says
 wait until that variable is updated
+^488 x 237 @ (1110, 530).
 
 so one thread block says
 i did something
+^488 x 238 @ (492, 528).
+
 the other thread block waits for it
+^488 x 237 @ (1110, 530).
 
 imagine running this code on a process on a gpu that only can run one thread block at a time
+^.
 
 if it runs thread block one first
+^488 x 237 @ (1110, 530).
+
 thread block zero never gets to go
+^488 x 238 @ (492, 528).
+
 and thread block one is waiting all the time
+^488 x 237 @ (1110, 530).
