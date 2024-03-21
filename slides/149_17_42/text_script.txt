@@ -1,5 +1,12 @@
 this three step process is shown here pictorially
-so first the exponential
-then the reduction
+^742 x 377 @ (137, 478).
 
-which is row wise and then the division
+so first the exponential
+^212 x 262 @ (175, 558).
+
+then the reduction
+which is row wise 
+^173 x 299 @ (431, 559).
+
+and then the division
+^206 x 286 @ (673, 535).

@@ -1,16 +1,42 @@
 so what do you do if you want to build an accelerator for this
 well
+^.
 
 remember
-
 you now have to control all the memory
+^.
+
 so let's assume that vec1 and vec2 are integer arrays in dram
+^137 x 40 @ (730, 825).
+^137 x 41 @ (730, 894).
 
 so it's clear here by this specification of dram
-that these two arrays are going to live in dram
+^162 x 218 @ (715, 747).
 
-now we haven't said exactly how dram works but let's assume that we have a way of moving data between the dram and the accelerator using direct memory access which is an efficient way of moving data between the main memory and the accelerator
+that these two arrays are going to live in dram
+^137 x 40 @ (730, 825).
+^137 x 41 @ (730, 894).
+
+now we haven't said exactly how dram works 
+but let's assume that we have a way of moving data 
+^.
+
+between the dram 
+^162 x 218 @ (715, 747).
+
+and the accelerator 
+^519 x 220 @ (973, 760).
+
+using direct memory access which is an efficient way of moving data 
+^123 x 124 @ (902, 811).
+
+between the main memory 
+^162 x 218 @ (715, 747).
+
+and the accelerator
+^519 x 220 @ (973, 760).
 
 and so
-we have an excel block
+we have an accel block
 which is where we are going to do the acceleration
+^519 x 220 @ (973, 760).
