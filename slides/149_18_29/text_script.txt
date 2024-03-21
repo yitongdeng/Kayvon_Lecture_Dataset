@@ -1,6 +1,17 @@
 we don't have to go to big scale scientific computing to be applicable
+^.
+
 you take an interview at apple to work on mobile team right now
 efficient software and power efficiency is what they care about
+^363 x 202 @ (900, 959).
+
 you go to waymo
 that's what they're gonna care about
-and so there's just a lot of places that one could go from this class even more so with all these large ai based language models that are extremely efficiency bound right now
+^916 x 536 @ (291, 271).
+
+and so there's just a lot of places that one could go from this class 
+^.
+
+even more so with all these large ai based language models that are extremely efficiency bound right now
+^711 x 265 @ (20, 232).
+^648 x 416 @ (1435, 439).

@@ -1,9 +1,29 @@
-amd or nvidia gpu
+amd or
+^816 x 455 @ (220, 178).
+
+nvidia gpu
+^744 x 451 @ (223, 722).
+
 this is now the chip
 this is the processor
+^229 x 172 @ (1381, 332).
 
 this is what's called the silicon interposer
 which is a piece of silicon
-and that processor is on the silicon
+and 
+^465 x 359 @ (1262, 240).
 
-and then there's four different stack drams next to it all of which are 1 024 bits into the chip so this is a 4 000 bit memory bus
+that processor is 
+^229 x 172 @ (1381, 332).
+
+on the silicon
+^465 x 359 @ (1262, 240).
+
+and then there's four different stack drams next to it 
+^93 x 85 @ (1427, 258).
+^92 x 84 @ (1303, 352).
+^91 x 86 @ (1473, 478).
+^91 x 86 @ (1598, 385).
+
+all of which are 1 024 bits into the chip so this is a 4 000 bit memory bus
+^.
