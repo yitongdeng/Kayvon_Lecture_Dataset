@@ -51,6 +51,7 @@ def parse_annotation(indir, outdir):
     text = open(os.path.join(indir, "text_script.txt")).read()
 
     text_segments = text.split('\n\n')
+    text_segments = [x for x in text_segments if x]
 
     pattern = re.compile(r"\^(.*?)\.")
 
@@ -71,9 +72,12 @@ def parse_annotation(indir, outdir):
     total_words = 0
     print("correct total words: ", len(starts))
     for i in range(len(text_segments)):
+        print('\n')
         curr_segment = {}
 
+        print("text segment", i, ": ", text_segments[i])
         bboxes = pattern.findall(text_segments[i])
+        print("bboxes: ", bboxes)
         bboxes = [parse_bbox(m) for m in bboxes]
         print("matched bboxes: ", bboxes)
         curr_segment["bboxes"] = bboxes

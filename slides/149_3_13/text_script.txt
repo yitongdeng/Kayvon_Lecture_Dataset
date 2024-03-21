@@ -1,18 +1,42 @@
 that we do all the time that i like to use in this class is doing your laundry
-
 imagine you have laundry
+^.
+
 and you have a washer
+^244 x 465 @ (557, 532).
+
 a dryer
+^257 x 465 @ (962, 532).
+
 and yourself
+^250 x 465 @ (1382, 532).
+
 because there's three stages to get your laundry done so i divvied up the road into 100 stages
 now i'm divvying up laundry into three stages
+^.
+
 you wash
+^244 x 465 @ (557, 532).
+
 you dry
+^257 x 465 @ (962, 532).
+
 and you fold
+^250 x 465 @ (1382, 532).
 
 so if you had one load of laundry
 how long would it take you to finish
+^.
 
 bottom of the slide
-two hours right because it takes 45 minutes plus 60
+two hours right 
+^807 x 39 @ (701, 1048).
+
+because it takes 45 minutes 
+^93 x 30 @ (634, 970).
+
+plus 60
+^91 x 25 @ (1044, 970).
+
 plus 15 to fold your clothes
+^88 x 25 @ (1469, 970).
