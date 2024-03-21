@@ -1,13 +1,39 @@
 of course the reason why i'm telling you all this is this can obviously happen in computing systems like a simple example might be
-imagine we had thread a and thread b
-and thread a pulls data out of some work queue and puts results in some output work queue
+^.
 
-and thread b supposed to pull data out of this work queue and put the data back in the one on the top
+imagine we had thread a
+^76 x 76 @ (316, 353).
 
-so you might be in the case where thread a says well i'm not going to pull any new work because i have nowhere to put my output
+and thread b
+^76 x 76 @ (574, 599).
+
+and thread a pulls data out of some work queue
+^334 x 101 @ (318, 355). 
+
+and puts results in some output work queue
+^221 x 97 @ (321, 610).
+
+and thread b supposed to pull data out of this work queue 
+^327 x 106 @ (321, 601).
+
+and put the data back in the one on the top
+^224 x 93 @ (429, 363).
+
+so you might be in the case where thread a says 
+well i'm not going to pull any new work 
+^334 x 101 @ (318, 355).
+
+because i have nowhere to put my output
+^221 x 97 @ (321, 610).
 
 so thread a doesn't drain its input
+^334 x 101 @ (318, 355).
 
-and it's waiting on b but b can't make any progress because there's nowhere for b to put its output
+and it's waiting on b
+^327 x 106 @ (321, 601).
+
+but b can't make any progress because there's nowhere for b to put its output
+^224 x 93 @ (429, 363).
 
 so that's an example
+^.

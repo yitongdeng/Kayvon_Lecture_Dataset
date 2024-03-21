@@ -1,10 +1,24 @@
 here's a bus and the bus made a little bit wider turn than it should have
+^458 x 741 @ (956, 143).
 
-or you could argue that this car probably ignored a little something on the road that says
+or you could argue that 
+^.
+
+this car probably ignored a little something on the road that says
 please don't pass this line
+^232 x 111 @ (1456, 461).
+
 because buses need to turn here
+^458 x 741 @ (956, 143).
+
 and all of a sudden the bus can't make progress
+^458 x 741 @ (956, 143).
+
 because that car is there
+^232 x 111 @ (1456, 461).
 
 the car can't make progress
+^232 x 111 @ (1456, 461).
+
 because the bus is there
+^458 x 741 @ (956, 143).
