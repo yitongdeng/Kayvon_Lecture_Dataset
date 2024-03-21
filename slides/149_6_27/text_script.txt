@@ -1,8 +1,25 @@
-so now hopefully you get like a little bit of a sense of where all this memory latency comes from
-right like it's an l1 cache lookup an l2 cache lookup
+so now hopefully you get like a little bit of a sense of 
+^.
+
+where all this memory latency comes from
+^644 x 112 @ (705, 709).
+
+right like it's an l1 cache lookup 
+^34 x 112 @ (744, 709).
+
+an l2 cache lookup
+^60 x 112 @ (779, 709).
+
 maybe you actually have a tlb miss because of you know in operating systems or something like that
-um maybe you
-like a request a message has to get sent to memory saying
-i want the data at this address and at some point the memory starts sending you the data back
+^.
+
+um maybe you like 
+a request a message has to get sent to memory saying
+i want the data at this address
+^239 x 112 @ (841, 709). 
+
+and at some point the memory starts sending you the data back
+^268 x 112 @ (1079, 709).
 
 and if you have a bandwidth of b bits per second you start getting b bits per second back in that blue region
+^268 x 112 @ (1079, 709).

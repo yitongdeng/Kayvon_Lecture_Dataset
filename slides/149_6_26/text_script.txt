@@ -1,8 +1,27 @@
-movement of data can happen between the processor and its registers
+movement of data can happen 
+^.
+
+between the processor 
+^116 x 114 @ (975, 433).
+
+and its registers
+^116 x 48 @ (975, 565).
+
 or its local l1
+^170 x 62 @ (949, 630).
+
 or its l3
+^444 x 64 @ (811, 861).
+
 or dram on my own computer
+^606 x 61 @ (731, 947).
+
 or dram on somebody else's computer
+^809 x 60 @ (628, 1027).
+
 or dram you know off in google
+^998 x 62 @ (534, 1109).
+
 so communication
 i want you to think of as just being abstract
+^.
