@@ -1,8 +1,17 @@
 for example
 if you rip open most modern machines
+^.
+
 you usually see like a l1 cache that's pretty small
 a few kilobytes right next to the processor that can be accessed in a few cycles
+^116 x 77 @ (790, 574).
+
 if you miss the l1
-you'll ask the l2 if you miss the l2 often you'll see an l3
+you'll ask the l2 
+^116 x 193 @ (790, 666).
+
+if you miss the l2 often you'll see an l3
+^425 x 693 @ (943, 386).
 
 if you miss the l3 you'll go out to dram
+^316 x 709 @ (1635, 377).

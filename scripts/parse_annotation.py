@@ -100,14 +100,18 @@ def parse_annotation(indir, outdir):
     with open(os.path.join(indir, "processed_annotation.json"), 'w') as f:
         json.dump(segments, f, ensure_ascii=False)
 
+
+    # read back annotation
+    segments_loaded = open(os.path.join(indir, "processed_annotation.json"))
+
     highlighteds = []
-    for i in range(len(segments)):
+    for i in range(len(segments_loaded)):
         print("processing segment: ", i)
         slide_copy = copy.deepcopy(slide)
-        slide_copy = paint_bboxes(slide_copy, segments[i]["bboxes"])
+        slide_copy = paint_bboxes(slide_copy, segments_loaded[i]["bboxes"])
         highlighteds.append(slide_copy)
     
-    create_image_video(indir, indir, slide, highlighteds, [s["start"] for s in segments], [s["end"] for s in segments])
+    create_image_video(indir, indir, slide, highlighteds, [s["start"] for s in segments_loaded], [s["end"] for s in segments_loaded])
         
 
 
